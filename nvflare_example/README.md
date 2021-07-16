@@ -54,7 +54,7 @@ To start the server and clients, run the following script (example with 2 client
 export n_clients=2
 ${projectpath}/fl_utils/fl_run/start_fl.sh ${n_clients}
 ```
-More more clients/GPUs, modify the `n_clients` and `export CUDA_VISIBLE_DEVICES` command in `start_fl.sh` to set which GPU a client should run on. Note that multiple clients can run on a single GPU as long as the memory is sufficient.
+For more clients/GPUs, modify the `n_clients` and `export CUDA_VISIBLE_DEVICES` command in `start_fl.sh` to set which GPU a client should run on. Note that multiple clients can run on a single GPU as long as the memory is sufficient.
 
 ### Start admin client
 In new terminal, start environment again
