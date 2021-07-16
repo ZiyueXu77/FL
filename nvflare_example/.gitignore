@@ -4,3 +4,5 @@ nvflare_monai
 fl_workspace
 # data
 data
+# pycharm
+.idea
